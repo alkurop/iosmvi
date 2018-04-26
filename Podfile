@@ -6,5 +6,4 @@ target 'iosmvi' do
   # Pods for iosmvi
   use_frameworks!
   pod 'RxSwift',    '~> 4.1.2'
-  pod 'DITranquillity', '~> 3.2.1'
 end

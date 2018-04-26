@@ -11,6 +11,7 @@
 		2469B226208E5755009F2856 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469B222208E5755009F2856 /* Navigator.swift */; };
 		2469B227208E5755009F2856 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469B223208E5755009F2856 /* Presenter.swift */; };
 		2469B228208E5755009F2856 /* ObservableType+Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469B224208E5755009F2856 /* ObservableType+Compose.swift */; };
+		24B8D90D2092061600577834 /* MviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B8D90C2092061600577834 /* MviViewController.swift */; };
 		5E42A668B87DC8732CE6349F /* Pods_iosmvi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8BD3FD6791C03DE4575CFB /* Pods_iosmvi.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		2469B222208E5755009F2856 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		2469B223208E5755009F2856 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		2469B224208E5755009F2856 /* ObservableType+Compose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Compose.swift"; sourceTree = "<group>"; };
+		24B8D90C2092061600577834 /* MviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MviViewController.swift; sourceTree = "<group>"; };
 		27DAFE160DDABA0D46793AA1 /* Pods-iosmvi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmvi.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosmvi/Pods-iosmvi.release.xcconfig"; sourceTree = "<group>"; };
 		C9290F08E105AC38C2610129 /* Pods-iosmvi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmvi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosmvi/Pods-iosmvi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				2469B224208E5755009F2856 /* ObservableType+Compose.swift */,
 				2469B223208E5755009F2856 /* Presenter.swift */,
 				2469B21A208E5533009F2856 /* Info.plist */,
+				24B8D90C2092061600577834 /* MviViewController.swift */,
 			);
 			path = iosmvi;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				2469B227208E5755009F2856 /* Presenter.swift in Sources */,
 				2469B225208E5755009F2856 /* Interactor.swift in Sources */,
 				2469B226208E5755009F2856 /* Navigator.swift in Sources */,
+				24B8D90D2092061600577834 /* MviViewController.swift in Sources */,
 				2469B228208E5755009F2856 /* ObservableType+Compose.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

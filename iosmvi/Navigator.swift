@@ -7,17 +7,6 @@
 //
 
 import Foundation
-import DITranquillity
-import UIKit
-
-open class MviViewController : UIViewController {
-    var dismissCallback: (([String:Any]) -> ())? = nil
-    var args: [String:Any]? = nil
-    
-    open class func getNibName() -> String {
-        return String(describing: self)
-    }
-}
 
 public class Navigator  {
     weak var viewController : MviViewController?
@@ -38,14 +27,6 @@ public class Navigator  {
                 self.viewController?.dismissCallback = nil
             }
         }
-    }
-}
-
-public extension DIContainer {
-    func registerNavigator(navigator: Navigator, key: String) {
-        self.register { navigator }
-            .as(Navigator.self, name: key)
-            .lifetime(.perRun(.weak))
     }
 }
 
