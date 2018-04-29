@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 open class MviViewController : UIViewController {
-    var dismissCallback: (([String:Any]) -> ())? = nil
-    var args: [String:Any] = [:]
+    public var dismissCallback: (([String:Any]) -> ())? = nil
+    public var args: [String:Any] = [:]
     
     open class func getNibName() -> String {
         return String(describing: self)
