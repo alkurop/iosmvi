@@ -11,7 +11,7 @@ import UIKit
 
 open class MviViewController : UIViewController {
     var dismissCallback: (([String:Any]) -> ())? = nil
-    var args: [String:Any]? = nil
+    var args: [String:Any] = [:]
     
     open class func getNibName() -> String {
         return String(describing: self)

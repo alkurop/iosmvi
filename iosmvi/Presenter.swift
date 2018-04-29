@@ -30,7 +30,7 @@ public extension Presenter {
     
     func subscribe(intentions: Observable<Action>) -> Observable<ViewState> {
         return intentions.compose(
-            interactor.provideProcessor()).reduce(self.defaultViewState(),
+            interactor.provideProcessor()).scan(self.defaultViewState(),
             accumulator: self.resultToViewStateMapper()
         )
     }
