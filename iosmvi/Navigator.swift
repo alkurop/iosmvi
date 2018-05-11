@@ -14,13 +14,13 @@ public class Navigator  {
         self.viewController = viewController
     }
     
-    public func navigate(event : NavigatorEvent) {
+    public func navigate(event : NavigatorEvent, animated: Bool = true) {
         DispatchQueue.main.sync {
             switch event {
             case let .PresentVC (viewController):
-                self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+                self.viewController?.navigationController?.pushViewController(viewController, animated: animated)
             case let .DismissSelf (result):
-                self.viewController?.navigationController?.popViewController(animated: true)
+                self.viewController?.navigationController?.popViewController(animated: animated)
                 if result != nil {
                     self.viewController?.dismissCallback?(result!)
                 }
