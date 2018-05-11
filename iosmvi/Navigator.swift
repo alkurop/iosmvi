@@ -9,22 +9,22 @@
 import Foundation
 
 public class Navigator  {
-    weak var viewController : MviViewController?
+    public weak var parent : MviViewController?
     public init(viewController: MviViewController) {
-        self.viewController = viewController
+        self.parent = viewController
     }
     
     public func navigate(event : NavigatorEvent, animated: Bool = true) {
         DispatchQueue.main.sync {
             switch event {
             case let .PresentVC (viewController):
-                self.viewController?.navigationController?.pushViewController(viewController, animated: animated)
+                self.parent?.navigationController?.pushViewController(viewController, animated: animated)
             case let .DismissSelf (result):
-                self.viewController?.navigationController?.popViewController(animated: animated)
+                self.parent?.navigationController?.popViewController(animated: animated)
                 if result != nil {
-                    self.viewController?.dismissCallback?(result!)
+                    self.parent?.dismissCallback?(result!)
                 }
-                self.viewController?.dismissCallback = nil
+                self.parent?.dismissCallback = nil
             }
         }
     }
