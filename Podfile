@@ -2,8 +2,16 @@
 platform :ios, '10.0'
 source 'https://github.com/CocoaPods/Specs.git'
 inhibit_all_warnings!
+
+workspace "iosmvi"
+use_frameworks!
+
 target 'iosmvi' do 
-  # Pods for iosmvi
-  use_frameworks!
   pod 'RxSwift',    '~> 4.1.2'
+  project "iosmvi/iosmvi"
+end
+
+target 'demo' do 
+  pod 'RxSwift',    '~> 4.1.2'
+  project "demo/demo"
 end

@@ -7,112 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2469B225208E5755009F2856 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469B221208E5755009F2856 /* Interactor.swift */; };
-		2469B226208E5755009F2856 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469B222208E5755009F2856 /* Navigator.swift */; };
-		2469B227208E5755009F2856 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469B223208E5755009F2856 /* Presenter.swift */; };
-		2469B228208E5755009F2856 /* ObservableType+Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469B224208E5755009F2856 /* ObservableType+Compose.swift */; };
-		24B8D90D2092061600577834 /* MviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B8D90C2092061600577834 /* MviViewController.swift */; };
-		24F0F0FD2095CC4A00E4D087 /* OneShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0F0FC2095CC4A00E4D087 /* OneShot.swift */; };
-		5E42A668B87DC8732CE6349F /* Pods_iosmvi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8BD3FD6791C03DE4575CFB /* Pods_iosmvi.framework */; };
+		43BB7AB120AAC3C700B72774 /* ResultBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB020AAC3C700B72774 /* ResultBus.swift */; };
+		43BB7AB820AACAD900B72774 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB220AACAD800B72774 /* Presenter.swift */; };
+		43BB7AB920AACAD900B72774 /* MviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB320AACAD800B72774 /* MviViewController.swift */; };
+		43BB7ABA20AACAD900B72774 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB420AACAD800B72774 /* Navigator.swift */; };
+		43BB7ABB20AACAD900B72774 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB520AACAD800B72774 /* Interactor.swift */; };
+		43BB7ABC20AACAD900B72774 /* ObservableType+Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB620AACAD900B72774 /* ObservableType+Compose.swift */; };
+		43BB7ABD20AACAD900B72774 /* OneShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB720AACAD900B72774 /* OneShot.swift */; };
+		43E8DF5220AA063300D1B49F /* iosmvi.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E8DF5020AA063300D1B49F /* iosmvi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F831ED4F20DB2DD802C4EE17 /* Pods_iosmvi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162596A42F597341C3DECB11 /* Pods_iosmvi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E8BD3FD6791C03DE4575CFB /* Pods_iosmvi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosmvi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2469B216208E5533009F2856 /* iosmvi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosmvi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2469B21A208E5533009F2856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2469B221208E5755009F2856 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		2469B222208E5755009F2856 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
-		2469B223208E5755009F2856 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		2469B224208E5755009F2856 /* ObservableType+Compose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Compose.swift"; sourceTree = "<group>"; };
-		24B8D90C2092061600577834 /* MviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MviViewController.swift; sourceTree = "<group>"; };
-		24F0F0FC2095CC4A00E4D087 /* OneShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneShot.swift; sourceTree = "<group>"; };
-		27DAFE160DDABA0D46793AA1 /* Pods-iosmvi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmvi.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosmvi/Pods-iosmvi.release.xcconfig"; sourceTree = "<group>"; };
-		C9290F08E105AC38C2610129 /* Pods-iosmvi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmvi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosmvi/Pods-iosmvi.debug.xcconfig"; sourceTree = "<group>"; };
+		162596A42F597341C3DECB11 /* Pods_iosmvi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosmvi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BB7AB020AAC3C700B72774 /* ResultBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBus.swift; sourceTree = "<group>"; };
+		43BB7AB220AACAD800B72774 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		43BB7AB320AACAD800B72774 /* MviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MviViewController.swift; sourceTree = "<group>"; };
+		43BB7AB420AACAD800B72774 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		43BB7AB520AACAD800B72774 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		43BB7AB620AACAD900B72774 /* ObservableType+Compose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Compose.swift"; sourceTree = "<group>"; };
+		43BB7AB720AACAD900B72774 /* OneShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneShot.swift; sourceTree = "<group>"; };
+		43E8DF4D20AA063300D1B49F /* iosmvi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosmvi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E8DF5020AA063300D1B49F /* iosmvi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosmvi.h; sourceTree = "<group>"; };
+		43E8DF5120AA063300D1B49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9BD9E29909DDFA814CDB8D /* Pods-iosmvi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmvi.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iosmvi/Pods-iosmvi.release.xcconfig"; sourceTree = "<group>"; };
+		757FE83368CAB632B1A66728 /* Pods-iosmvi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmvi.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-iosmvi/Pods-iosmvi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2469B212208E5533009F2856 /* Frameworks */ = {
+		43E8DF4920AA063300D1B49F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E42A668B87DC8732CE6349F /* Pods_iosmvi.framework in Frameworks */,
+				F831ED4F20DB2DD802C4EE17 /* Pods_iosmvi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020B642DF2F8357DEDB88801 /* Frameworks */ = {
+		43E8DF4320AA063300D1B49F = {
 			isa = PBXGroup;
 			children = (
-				1E8BD3FD6791C03DE4575CFB /* Pods_iosmvi.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2469B20C208E5533009F2856 = {
-			isa = PBXGroup;
-			children = (
-				2469B218208E5533009F2856 /* iosmvi */,
-				2469B217208E5533009F2856 /* Products */,
-				EE9B3D28FE2B0C69E3D02280 /* Pods */,
-				020B642DF2F8357DEDB88801 /* Frameworks */,
+				43E8DF4F20AA063300D1B49F /* iosmvi */,
+				43E8DF4E20AA063300D1B49F /* Products */,
+				C2A05D8D139FAC2D2437E382 /* Pods */,
+				CB42B0A15435B267C3FE4B9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2469B217208E5533009F2856 /* Products */ = {
+		43E8DF4E20AA063300D1B49F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2469B216208E5533009F2856 /* iosmvi.framework */,
+				43E8DF4D20AA063300D1B49F /* iosmvi.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2469B218208E5533009F2856 /* iosmvi */ = {
+		43E8DF4F20AA063300D1B49F /* iosmvi */ = {
 			isa = PBXGroup;
 			children = (
-				2469B221208E5755009F2856 /* Interactor.swift */,
-				2469B222208E5755009F2856 /* Navigator.swift */,
-				2469B224208E5755009F2856 /* ObservableType+Compose.swift */,
-				2469B223208E5755009F2856 /* Presenter.swift */,
-				24F0F0FC2095CC4A00E4D087 /* OneShot.swift */,
-				2469B21A208E5533009F2856 /* Info.plist */,
-				24B8D90C2092061600577834 /* MviViewController.swift */,
+				43BB7AB520AACAD800B72774 /* Interactor.swift */,
+				43BB7AB320AACAD800B72774 /* MviViewController.swift */,
+				43BB7AB420AACAD800B72774 /* Navigator.swift */,
+				43BB7AB620AACAD900B72774 /* ObservableType+Compose.swift */,
+				43BB7AB720AACAD900B72774 /* OneShot.swift */,
+				43BB7AB220AACAD800B72774 /* Presenter.swift */,
+				43E8DF5020AA063300D1B49F /* iosmvi.h */,
+				43E8DF5120AA063300D1B49F /* Info.plist */,
+				43BB7AB020AAC3C700B72774 /* ResultBus.swift */,
 			);
 			path = iosmvi;
 			sourceTree = "<group>";
 		};
-		EE9B3D28FE2B0C69E3D02280 /* Pods */ = {
+		C2A05D8D139FAC2D2437E382 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9290F08E105AC38C2610129 /* Pods-iosmvi.debug.xcconfig */,
-				27DAFE160DDABA0D46793AA1 /* Pods-iosmvi.release.xcconfig */,
+				757FE83368CAB632B1A66728 /* Pods-iosmvi.debug.xcconfig */,
+				4C9BD9E29909DDFA814CDB8D /* Pods-iosmvi.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB42B0A15435B267C3FE4B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				162596A42F597341C3DECB11 /* Pods_iosmvi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2469B213208E5533009F2856 /* Headers */ = {
+		43E8DF4A20AA063300D1B49F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E8DF5220AA063300D1B49F /* iosmvi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2469B215208E5533009F2856 /* iosmvi */ = {
+		43E8DF4C20AA063300D1B49F /* iosmvi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2469B21E208E5533009F2856 /* Build configuration list for PBXNativeTarget "iosmvi" */;
+			buildConfigurationList = 43E8DF5520AA063300D1B49F /* Build configuration list for PBXNativeTarget "iosmvi" */;
 			buildPhases = (
-				0EFAC2040717C5CA5B64DF3C /* [CP] Check Pods Manifest.lock */,
-				2469B211208E5533009F2856 /* Sources */,
-				2469B212208E5533009F2856 /* Frameworks */,
-				2469B213208E5533009F2856 /* Headers */,
-				2469B214208E5533009F2856 /* Resources */,
+				BD3AE495C7BD1670987BD4EB /* [CP] Check Pods Manifest.lock */,
+				43E8DF4820AA063300D1B49F /* Sources */,
+				43E8DF4920AA063300D1B49F /* Frameworks */,
+				43E8DF4A20AA063300D1B49F /* Headers */,
+				43E8DF4B20AA063300D1B49F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,43 +127,43 @@
 			);
 			name = iosmvi;
 			productName = iosmvi;
-			productReference = 2469B216208E5533009F2856 /* iosmvi.framework */;
+			productReference = 43E8DF4D20AA063300D1B49F /* iosmvi.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2469B20D208E5533009F2856 /* Project object */ = {
+		43E8DF4420AA063300D1B49F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = Oleksii.Kuropiatnyk;
+				ORGANIZATIONNAME = "Alexey Kuropiantnyk";
 				TargetAttributes = {
-					2469B215208E5533009F2856 = {
+					43E8DF4C20AA063300D1B49F = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
 					};
 				};
 			};
-			buildConfigurationList = 2469B210208E5533009F2856 /* Build configuration list for PBXProject "iosmvi" */;
+			buildConfigurationList = 43E8DF4720AA063300D1B49F /* Build configuration list for PBXProject "iosmvi" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2469B20C208E5533009F2856;
-			productRefGroup = 2469B217208E5533009F2856 /* Products */;
+			mainGroup = 43E8DF4320AA063300D1B49F;
+			productRefGroup = 43E8DF4E20AA063300D1B49F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2469B215208E5533009F2856 /* iosmvi */,
+				43E8DF4C20AA063300D1B49F /* iosmvi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2469B214208E5533009F2856 /* Resources */ = {
+		43E8DF4B20AA063300D1B49F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,7 +173,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0EFAC2040717C5CA5B64DF3C /* [CP] Check Pods Manifest.lock */ = {
+		BD3AE495C7BD1670987BD4EB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,23 +194,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2469B211208E5533009F2856 /* Sources */ = {
+		43E8DF4820AA063300D1B49F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F0F0FD2095CC4A00E4D087 /* OneShot.swift in Sources */,
-				2469B227208E5755009F2856 /* Presenter.swift in Sources */,
-				2469B225208E5755009F2856 /* Interactor.swift in Sources */,
-				2469B226208E5755009F2856 /* Navigator.swift in Sources */,
-				24B8D90D2092061600577834 /* MviViewController.swift in Sources */,
-				2469B228208E5755009F2856 /* ObservableType+Compose.swift in Sources */,
+				43BB7AB120AAC3C700B72774 /* ResultBus.swift in Sources */,
+				43BB7ABA20AACAD900B72774 /* Navigator.swift in Sources */,
+				43BB7ABB20AACAD900B72774 /* Interactor.swift in Sources */,
+				43BB7ABC20AACAD900B72774 /* ObservableType+Compose.swift in Sources */,
+				43BB7AB920AACAD900B72774 /* MviViewController.swift in Sources */,
+				43BB7AB820AACAD900B72774 /* Presenter.swift in Sources */,
+				43BB7ABD20AACAD900B72774 /* OneShot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2469B21C208E5533009F2856 /* Debug */ = {
+		43E8DF5320AA063300D1B49F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		2469B21D208E5533009F2856 /* Release */ = {
+		43E8DF5420AA063300D1B49F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -323,9 +331,9 @@
 			};
 			name = Release;
 		};
-		2469B21F208E5533009F2856 /* Debug */ = {
+		43E8DF5620AA063300D1B49F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9290F08E105AC38C2610129 /* Pods-iosmvi.debug.xcconfig */;
+			baseConfigurationReference = 757FE83368CAB632B1A66728 /* Pods-iosmvi.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -342,7 +350,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alkurop.iosmvi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkurop.iosmvi;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -351,9 +359,9 @@
 			};
 			name = Debug;
 		};
-		2469B220208E5533009F2856 /* Release */ = {
+		43E8DF5720AA063300D1B49F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27DAFE160DDABA0D46793AA1 /* Pods-iosmvi.release.xcconfig */;
+			baseConfigurationReference = 4C9BD9E29909DDFA814CDB8D /* Pods-iosmvi.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -370,7 +378,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alkurop.iosmvi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkurop.iosmvi;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -381,25 +389,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2469B210208E5533009F2856 /* Build configuration list for PBXProject "iosmvi" */ = {
+		43E8DF4720AA063300D1B49F /* Build configuration list for PBXProject "iosmvi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2469B21C208E5533009F2856 /* Debug */,
-				2469B21D208E5533009F2856 /* Release */,
+				43E8DF5320AA063300D1B49F /* Debug */,
+				43E8DF5420AA063300D1B49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2469B21E208E5533009F2856 /* Build configuration list for PBXNativeTarget "iosmvi" */ = {
+		43E8DF5520AA063300D1B49F /* Build configuration list for PBXNativeTarget "iosmvi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2469B21F208E5533009F2856 /* Debug */,
-				2469B220208E5533009F2856 /* Release */,
+				43E8DF5620AA063300D1B49F /* Debug */,
+				43E8DF5720AA063300D1B49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2469B20D208E5533009F2856 /* Project object */;
+	rootObject = 43E8DF4420AA063300D1B49F /* Project object */;
 }

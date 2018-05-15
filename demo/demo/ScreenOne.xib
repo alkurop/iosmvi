@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScreenOneVC" customModule="demo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="PsM-pz-lI6" id="wNO-mM-VJv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="PsM-pz-lI6">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="screen 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdf-82-hf9">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ak-cD-wVR">
+                    <rect key="frame" x="164" y="142" width="101" height="30"/>
+                    <state key="normal" title="Go to screen 2"/>
+                    <connections>
+                        <action selector="goToScreenTwo:" destination="-1" eventType="touchUpInside" id="81D-1Y-bTz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2dO-jW-hRL" firstAttribute="trailing" secondItem="xdf-82-hf9" secondAttribute="trailing" id="0Wt-xY-yAq"/>
+                <constraint firstItem="3Ak-cD-wVR" firstAttribute="leading" secondItem="2dO-jW-hRL" secondAttribute="leading" constant="164" id="ApU-Xb-heN"/>
+                <constraint firstItem="xdf-82-hf9" firstAttribute="top" secondItem="2dO-jW-hRL" secondAttribute="top" id="KMa-WT-HqM"/>
+                <constraint firstItem="2dO-jW-hRL" firstAttribute="bottom" secondItem="xdf-82-hf9" secondAttribute="bottom" id="eZ4-oT-kj2"/>
+                <constraint firstItem="xdf-82-hf9" firstAttribute="leading" secondItem="2dO-jW-hRL" secondAttribute="leading" id="nPz-3G-Bxr"/>
+                <constraint firstItem="3Ak-cD-wVR" firstAttribute="top" secondItem="2dO-jW-hRL" secondAttribute="top" constant="122" id="xQP-WZ-Djx"/>
+                <constraint firstItem="2dO-jW-hRL" firstAttribute="bottom" secondItem="3Ak-cD-wVR" secondAttribute="bottom" constant="495" id="xxU-Im-AYf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="2dO-jW-hRL"/>
+            <point key="canvasLocation" x="-76" y="153"/>
+        </view>
+    </objects>
+</document>

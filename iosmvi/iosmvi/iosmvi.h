@@ -2,8 +2,8 @@
 //  iosmvi.h
 //  iosmvi
 //
-//  Created by Oleksii.Kuropiatnyk on 23/04/2018.
-//  Copyright © 2018 Oleksii.Kuropiatnyk. All rights reserved.
+//  Created by Alexey Kuropiantnyk on 14/05/2018.
+//  Copyright © 2018 Alexey Kuropiantnyk. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
