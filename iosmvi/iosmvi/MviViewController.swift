@@ -12,7 +12,7 @@ import RxSwift
 
 open class MviViewController : UIViewController {
     public var args: [String:Any] = [:]
-    public var requestId: Int? = nil
+    public let requestId: Int?
     private var resultBusDisposable: Disposable? = nil
     
     open class func getNibName() -> String {
@@ -35,4 +35,15 @@ open class MviViewController : UIViewController {
     open func didReceiveVcResult (resultId: Int, result: [String: Any]) {
         
     }
+    
+    public init (nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?, requestId: Int? = nil){
+        self.requestId = requestId
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        self.requestId = nil
+        super.init(coder: aDecoder)
+    }
+    
 }

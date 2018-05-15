@@ -21,8 +21,7 @@ class ScreenOneVC: MviViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func goToScreenTwo(_ sender: Any) {
-        let screenTwo = ScreenTwoVC(nibName: "ScreenTwo", bundle: nil)
-        screenTwo.requestId = 25
+        let screenTwo = ScreenTwoVC(nibName: "ScreenTwo", bundle: nil, requestId: 25)
         self.navigationController?.pushViewController(screenTwo, animated: true)
     }
     
