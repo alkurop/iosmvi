@@ -10,10 +10,12 @@ import Foundation
 
 public class OneShot {
     private var shouldExecute = true
+    let params: Any
     
-    public init(){
+    public init(_ params: Any? = nil){
+        self.params = params
     }
-    
+
     public func isActive() -> Bool {
         let localShould = shouldExecute
         shouldExecute = false

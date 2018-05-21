@@ -10,3 +10,6 @@ build/
 *.perspectivev3
 *.lock
 xcuserdata/
+.idea
+/.idea/
+.idea/
