@@ -10,7 +10,7 @@ import Foundation
 
 public class OneShot {
     private var shouldExecute = true
-    public let params: Any
+    public let params: Any?
     
     public init(_ params: Any? = nil){
         self.params = params
