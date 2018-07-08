@@ -23,11 +23,6 @@ public protocol Presenter {
 }
 
 public extension Presenter {
-    init(interactor: Interactor1) {
-        self.init(interactor: interactor)
-        self.interactor = interactor
-    }
-    
     func subscribe(intentions: Observable<Action>) -> Observable<ViewState> {
         return intentions.compose(
             interactor.provideProcessor()).scan(self.defaultViewState(),
