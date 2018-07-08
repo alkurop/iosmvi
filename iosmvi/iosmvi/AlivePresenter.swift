@@ -21,7 +21,7 @@ public extension AlivePresenter {
         if disposableContainer.disposable == nil {
             disposableContainer.disposable = intentions.compose(
                             interactor.provideProcessor()).scan(
-                            self.defaultViewState(),
+                            self.defaultViewState,
                             accumulator: self.resultToViewStateMapper()
                     )
                     .subscribe(onNext: { state in
