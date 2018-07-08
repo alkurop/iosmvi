@@ -15,6 +15,7 @@
 		43BB7ABC20AACAD900B72774 /* ObservableType+Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB620AACAD900B72774 /* ObservableType+Compose.swift */; };
 		43BB7ABD20AACAD900B72774 /* OneShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB7AB720AACAD900B72774 /* OneShot.swift */; };
 		43E8DF5220AA063300D1B49F /* iosmvi.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E8DF5020AA063300D1B49F /* iosmvi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612FFF5F29BD75929E9A744B /* AlivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FFDC76A9C7F13923391D8 /* AlivePresenter.swift */; };
 		F831ED4F20DB2DD802C4EE17 /* Pods_iosmvi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162596A42F597341C3DECB11 /* Pods_iosmvi.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		43E8DF5020AA063300D1B49F /* iosmvi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosmvi.h; sourceTree = "<group>"; };
 		43E8DF5120AA063300D1B49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9BD9E29909DDFA814CDB8D /* Pods-iosmvi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmvi.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iosmvi/Pods-iosmvi.release.xcconfig"; sourceTree = "<group>"; };
+		612FFDC76A9C7F13923391D8 /* AlivePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlivePresenter.swift; sourceTree = "<group>"; };
 		757FE83368CAB632B1A66728 /* Pods-iosmvi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmvi.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-iosmvi/Pods-iosmvi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				43E8DF5020AA063300D1B49F /* iosmvi.h */,
 				43E8DF5120AA063300D1B49F /* Info.plist */,
 				43BB7AB020AAC3C700B72774 /* ResultBus.swift */,
+				612FFDC76A9C7F13923391D8 /* AlivePresenter.swift */,
 			);
 			path = iosmvi;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				43BB7AB920AACAD900B72774 /* MviViewController.swift in Sources */,
 				43BB7AB820AACAD900B72774 /* Presenter.swift in Sources */,
 				43BB7ABD20AACAD900B72774 /* OneShot.swift in Sources */,
+				612FFF5F29BD75929E9A744B /* AlivePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
